@@ -54,5 +54,5 @@ $botas = array(
 
 foreach ($botas as $bota) {
   echo '<h2>' . $bota['nombre'] . '</h2>';
-  echo '<p>Precio: $' . $bota['precio'] . '</p>';
+  echo '<p>Precio: ' . $bota['precio'] . '€</p>';
 }
